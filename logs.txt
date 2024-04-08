@@ -1,0 +1,91 @@
+Goran@DESKTOP-Q8APF1V MINGW64 ~/Desktop/SI_2024_lab1_226048 (master)
+$ git log
+commit 3e9dfb5e24fefda855391edd42318e03721f4862 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:46:16 2024 +0200
+
+    fix wrong condition in makeBigStringFrom
+
+commit e360dd396e149fb401ea5751055aa0e9a33f3ad7 (origin/bug1, bug1)
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:50:00 2024 +0200
+
+    call method filterOddLengthStrings in main class
+
+commit 2ad7e54faf2fa585c623e2503bcb1d5b90860ee5
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:43:12 2024 +0200
+
+    fix wrong condition in filterOddLengthStrings
+
+commit a01308cf7f23117dac84617df21beb92d76b4a62
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:29:53 2024 +0200
+
+    add starter code
+
+commit 5196a989db72cbf2e2a70a3c379776744163f7e6
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:05:54 2024 +0200
+
+    initial commit
+
+===================================================================
+Goran@DESKTOP-Q8APF1V MINGW64 ~/Desktop/SI_2024_lab1_226048 (bug1)
+$ git log
+commit e360dd396e149fb401ea5751055aa0e9a33f3ad7 (HEAD -> bug1, origin/bug1)
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:50:00 2024 +0200
+
+    call method filterOddLengthStrings in main class
+
+commit 2ad7e54faf2fa585c623e2503bcb1d5b90860ee5
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:43:12 2024 +0200
+
+    fix wrong condition in filterOddLengthStrings
+
+commit a01308cf7f23117dac84617df21beb92d76b4a62
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:29:53 2024 +0200
+
+    add starter code
+
+commit 5196a989db72cbf2e2a70a3c379776744163f7e6
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:05:54 2024 +0200
+
+    initial commit
+
+===================================================================
+Goran@DESKTOP-Q8APF1V MINGW64 ~/Desktop/SI_2024_lab1_226048 (bug2)
+$ git log
+commit 3e9dfb5e24fefda855391edd42318e03721f4862 (HEAD -> bug2, origin/master, origin/bug2, master)
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:46:16 2024 +0200
+
+    fix wrong condition in makeBigStringFrom
+
+commit e360dd396e149fb401ea5751055aa0e9a33f3ad7 (origin/bug1, bug1)
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:50:00 2024 +0200
+
+    call method filterOddLengthStrings in main class
+
+commit 2ad7e54faf2fa585c623e2503bcb1d5b90860ee5
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:43:12 2024 +0200
+
+    fix wrong condition in filterOddLengthStrings
+
+commit a01308cf7f23117dac84617df21beb92d76b4a62
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:29:53 2024 +0200
+
+    add starter code
+
+commit 5196a989db72cbf2e2a70a3c379776744163f7e6
+Author: Goran <goranp01@outlook.com>
+Date:   Mon Apr 8 22:05:54 2024 +0200
+
+    initial commit

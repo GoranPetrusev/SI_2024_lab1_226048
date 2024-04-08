@@ -1,0 +1,64 @@
+So narednite 8 komandi go inicijalizirame lokalniot repozitorium i go pravime prviot commit
+	mkdir SI_2024_lab1_226048
+	cd SI_2024_lab1_226048
+	git init
+	git remote add origin https://github.com/GoranPetrusev/SI_2024_lab1_226048.git
+	echo "Goran Petrushev 226048" >> README.md
+	git add README.md
+	git commit -m "initial commit"
+	git push -u origin master
+
+Gi dodavame trite fajlovi vo direktoriumot pa gi stavame vo tracked i staged, a potoa pravime commit i sinhronizirame so dalecniot repozitorium
+	git add .
+	git commit -a -m "add starter code"
+	git push
+
+Praviem dve novi lokalni granki
+	git branch bug1
+	git branch bug2
+
+Fix na prv bug
+	git checkout bug1
+	git commit -a -m "fix wrong condition in filterOddLengthStrings"
+
+Fix na vtor bug
+	git checkout bug2
+	git commit -a -m "fix wrong condition in makeBigStringFrom"
+
+Dodavanje na call vo main na grankata bug1
+	git checkout bug1
+	git commit -a -m "call method filterOddLengthStrings in main class"
+
+Dodavanje na call vo main na grankata bug2
+	git checkout bug2
+	git commit -a -m "call method makeBigStringFrom in main class"
+
+Gi sinhronizirame grankite so dalecniot repozitorium
+	git checkout bug1
+	git push origin bug1
+	git checkout bug2
+	git push origin bug2
+
+Ja spojuvame grankata bug1 kon master i sinhronizirame so dalecniot repozitorium
+	git checkout master
+	git merge bug1
+	git push
+
+Pravime rebase na grankata bug2 sprema master, no dobivame konflikt
+	git checkout bug2
+	git rebase master #Dava conflict error
+	git rebase --skip #Go skokame commitot od koj dobivame konflikt (not good) :P
+
+Spojuvame bug2 kon master i gi sinhronizirame site granki dalecniot repozitorium. Za bug2 e potrebno --force flagot da go koristime
+	git checkout master
+	git merge bug2
+	git push
+	git checkout bug1
+	git push origin bug1
+	git checkout bug2
+	git push --force origin bug2 - Forsirame push
+
+
+
+
+
